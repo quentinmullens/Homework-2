@@ -1,20 +1,19 @@
 #QuentinMullens 1994985
 
-word = input()
-password = ''
+password = input('')
 
-for x in word:
-    if(x=='i'):
+for p in word:
+    if(p=='i'):
         password+="!"
-    elif(x=='a'):
+    elif(p=='a'):
         password += "@"
-    elif (x == 'm'):
+    elif (p == 'm'):
         password += "M"
-    elif (x == 'B'):
+    elif (p == 'B'):
         password += "8"
-    elif (x == 'o'):
+    elif (p == 'o'):
         password += "."
     else:
-        password += x
+        password += p
 password += "q*s"
 print(password)
